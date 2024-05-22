@@ -1,0 +1,103 @@
+h1, #sub-title {
+    text-align: center;
+}
+
+p, h2 {
+   margin: 25px;
+}
+
+.section-content {
+    background-color: cornflowerblue;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.section-content>h3 {
+   margin: 0;
+}
+
+#section-luas {
+   background-color: #d2ecfc;
+   padding-bottom: 50px;
+}
+
+#section-keliling {
+   margin-top: 50px ;
+   background-color: #cdd8f7;
+   padding-bottom: 50px;
+}
+
+
+#switch-kell {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   width: 100%;
+   background-color: white;
+   border: 0;
+   color: blue;
+}
+
+.formula-img {
+   text-align: center;
+}
+
+image {
+   height: 100px;
+}
+
+input {
+   width: 90%;
+   background-color: #a1c5ff;
+   margin-left: 50px;
+   padding: 8px;
+   border: 1px solid ;
+   border-radius: 4px;
+   font-size:medium;
+   font-family: sans-serif;
+}
+
+#jawaban_l, #jawaban_k {
+   font-weight: bold;
+}
+
+form>button {
+   padding: 10px;
+   background-color: bisque;
+   color: black;
+   border: 1px solid black;
+   border-radius: 10px;
+   margin-left: 50px;
+}
+
+#reset-btn-luas, #reset-btn-kell {
+   background-color: blue;
+   color: aliceblue;
+   float: right;
+   margin: 20px;
+}
+
+
+#rsegi3 {
+   text-align: center;
+   font-size: larger;
+   font-weight: bold;
+}
+
+#footer {
+   text-align: center;
+   padding: 30px;
+}
+
+#switch-luas, #switch-keliling {
+   font-size: medium;
+   background-color: lightgreen;
+   border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+   input {
+     width: 80%;
+   }
+ }

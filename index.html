@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProject Kalkulator Matematik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Welcome to Kalkulator Matematik </h1>
+        <section>
+            <p id="sub-title">Selamat datang di website untuk menghitung luas dan keliling dari bangun datar segitiga.</p>
+        </section>
+    </header>
+
+    <section id="section-content">
+        <!--Ini Titel General (Keseluruhan)--> 
+        <div class="section-content">
+            <h3>Segitiga</h3>
+        </div>
+
+        <button type="button" id="switch-kell">
+            <a href="#section-keliling">
+                <u>Switch ke Keliling Segitiga</u>
+            </a>
+        </button>
+    </section>
+
+    <section id="section-luas">
+        <!--Kontan Atas Luas Segitiga-->
+        <section>
+            <div class="section-content">
+                <h2>Luas Segitiga</h2>
+            </div>
+
+        <br>
+            <div class="formula-img">
+                <img src="https://aura-ilmu.com/global/wp-content/uploads/sites/2/2020/11/segitiga-300x210.jpg.webp" alt="Luas Segitiga">
+            </div>
+
+            <p>Rumus Luas Segitiga :</p>
+            <p id="rsegi3">L = 1/2 x a x t</p>
+            <p>Dimana :</p>
+            <p>L =  Luas</p>
+            <p>a =  Alas Segitiga</p>
+            <p>t = Tinggi Segitiga</p>
+            <br>
+        </section>
+
+        <hr/> <!--Buat garis lurus/Pemisah Konten-->
+
+        <section id="form-container-luas" class="form-container">
+            <!--Konten Bawah Luas Segitiga-->
+            <header>
+                <h2>Hitung Luas Segitiga</h2>
+            </header>
+            <form>
+                <section id="input-box">
+                    <div>
+                        <input name="alas" id="alas" type="number" placeholder="Masukan Alas" required>
+                    </div>
+                    <br>
+                    <div>
+                        <input name="tinggi" id="tinggi" type="number" placeholder="Masukan Tinggi" required>
+                    </div>
+                </section>
+                <br>
+                <button type="button" id="hitung-luas">Hitung</button>
+                <div id="ket_l">
+                    <p id="keterangan_l"></p>
+                    <p id="dik_l"></p>
+                    <p id="hasil_l"></p>
+                    <p id="jawaban_l"></p>
+                </div>
+                <button type="button" id="reset-btn-luas">Reset</button>
+                <br>
+            </form>
+        </section>
+    </section>
+    <br>
+    <br>
+
+    <!--       Ini Masuk ke bagian Keliling Segitiga     -->
+
+    <hr/>
+
+    <section id="section-keliling">
+        <!--Kontan Atas Keliling Segitiga-->
+        <section>
+            <br>
+            <div class="section-content">
+                <h2>Keliling Segitiga</h2>
+            </div>
+
+            <div class="formula-img">
+                <img src="https://aura-ilmu.com/global/wp-content/uploads/sites/2/2020/11/segitiga-300x210.jpg.webp" alt="Luas Segitiga">
+            </div>
+
+            <p>Rumus Keliling Segitiga :</p>
+            <p id="rsegi3">Kell = A + B + C</p>
+            <p>Dimana :</p>
+            <p>Kell =  Keliling</p>
+            <p>A =  Sisi A Segitiga</p>
+            <p>B = Sisi B Segitiga</p>
+            <p>C = Sisi C Segitiga</p>
+            <br>
+        </section>
+
+        <hr/> <!--Buat garis lurus/Pemisah Konten-->
+
+        <section id="form-container-keliling" class="form-container">
+            <!--Konten Bawah Keliling Segitiga-->
+            <header>
+                <h2>Hitung Keliling Segitiga</h2>
+            </header>
+            <form>
+                <section id="input-box">
+                    <div>
+                        <input name="a" id="sisiA" type="number" placeholder="Masukan Sisi A">
+                    </div>
+                    <br>
+                    <div>
+                        <input name="b" id="sisiB" type="number" placeholder="Masukan Sisi B">
+                    </div>
+                    <br>
+                    <div>
+                        <input name="c" id="sisiC" type="number" placeholder="Masukan sisi C">
+                    </div>
+                </section>
+                <br>
+                <button type="button" id="hitung-kell">Hitung</button>
+                <div id="ket_k">
+                    <p id="keterangan_k"></p>
+                    <p id="dik_k"></p>
+                    <p id="hasil_k"></p>
+                    <p id="jawaban_k"></p>
+                </div>
+                <br>
+                <button type="button" id="reset-btn-kell">Reset</button>
+                <br>
+            </form>
+        </section>
+    </section>
+
+    <footer id="footer">
+        <section>
+            <button type="button" id="switch-luas">
+            <a href="#section-luas">
+                <u>Luas Segitiga</u>
+            </a>
+            </button>
+            <button type="button" id="switch-keliling">
+            <a href="#section-keliling">
+                <u>Keliling Segitiga</u>
+            </a>
+            </button>
+        </section>    
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
